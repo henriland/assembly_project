@@ -14,5 +14,5 @@ _start:
 
 section		.data			;section declaration
 
-msg 	db `\u26F0`,`  `,`\u263a`,`  `,`\u261e`,`  `,1Bh, '[3;34mThis is my simple program with the Assembly programming language.',0xa		;string
+msg 	db `\u26F0`,`  `,`\u263a`,`  `,`\u261e`,`  `,1Bh, '[3;34mThis is a simple program written with the Assembly programming language.',0xa		;string
 len 	equ	$ - msg 		;string length
