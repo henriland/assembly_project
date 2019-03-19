@@ -3,3 +3,5 @@
 <p><code>nasm -f elf64 program.asm</code></p>
 <p><code>ld -o program program.o</code></p></p>
 <p><code>./program</code></p>
+<h2>Compatibility</h2>
+<p>Linux operating system</p>
