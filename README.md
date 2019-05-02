@@ -5,6 +5,7 @@
 <p>NASM (Netwide Assembler)</p>
 <h2>How to run?</h2>
 <ol>
+  <li>clone this repository</li>
   <li><code>nasm -f elf64 program.asm</code></li>
   <li><code>ld -o program program.o</code></li>
   <li><code>./program</code></li>
